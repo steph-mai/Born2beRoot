@@ -39,9 +39,9 @@ To ensure the VM has not been modified since the repository submission:
 ### Classic Resources
 To successfully complete this system administration project, I relied on the following standard resources:
 
-* **Debian Administrator's Handbook:**
+* **Debian Administrator's Handbook**
 * **Linux `man` pages:** (`man hostname`, `man sshd_config`, `man pam.d`, `man crontab`, `man wall`).
-* **UFW Documentation:**
+* **UFW Documentation**
 
 ### AI Usage
 In the context of this project, Artificial Intelligence (ChatGPT / Gemini) was used as a **learning assistant**, in compliance with the school's rules. It was not used to generate the final disk image.
@@ -123,7 +123,3 @@ Here are the essential commands to manage this server.
 ### 6. Monitoring (Cron)
 * **Edit crontab:** `sudo crontab -u root -e`
 * **Stop script execution:** Comment the line in crontab with `#`.
-
-### 7. Bonus Services
-* **Fail2Ban status:** `sudo fail2ban-client status sshd`
-* **WordPress Database:** `sudo mariadb -u root -p`
