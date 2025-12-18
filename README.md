@@ -26,14 +26,14 @@ To ensure the VM has not been modified since the repository submission:
 1. Locate the virtual disk file on the computer.
 2. Run the following command:
    ```bash
-      shasum born2beroot.vdi
+	shasum Born2beRoot_bonus.vdi
 ### 3. Usage
 - Start the Virtual Machine.
 - Log in using the non-root user (e.g., `stmaire`) or root.
 - The monitoring script broadcasts system information every 10 minutes on all terminals.
 - Connect via SSH on port 4242:
 	```bash
-	   ssh user@localhost -p 4242
+	   ssh stmaire@localhost -p 4242
 # Resources
 
 ### Classic Resources
