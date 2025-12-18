@@ -26,7 +26,7 @@ To ensure the VM has not been modified since the repository submission:
 1. Locate the virtual disk file on the computer.
 2. Run the following command:
    ```bash
-	shasum Born2beRoot_bonus.vdi
+	shasum born2berootClone.vdi
 ### 3. Usage
 - Start the Virtual Machine.
 - Log in using the non-root user (e.g., `stmaire`) or root.
